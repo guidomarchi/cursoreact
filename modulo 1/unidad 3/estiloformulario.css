@@ -1,0 +1,30 @@
+.caja{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(70, 12, 70);
+    padding: 50px;
+    margin-top: 60px;
+    padding-top: 80px;
+    border: 10px solid rgb(156, 64, 156);  
+    border-radius: 30px;
+    box-shadow: 15px 10px 5px rgb(0, 0, 0);
+  
+}
+
+input{
+    border: 3px solid rgb(2, 11, 14); 
+    border-radius: 40px;
+    background-color: rgb(156, 64, 156);
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+
