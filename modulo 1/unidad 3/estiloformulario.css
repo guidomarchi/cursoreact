@@ -8,12 +8,12 @@
     padding-top: 80px;
     border: 10px solid rgb(156, 64, 156);  
     border-radius: 30px;
-    box-shadow: 15px 10px 5px rgb(0, 0, 0);
+    box-shadow: 15px 10px 5px rgb(41, 3, 41);
   
 }
 
 input{
-    border: 3px solid rgb(2, 11, 14); 
+    border: 3px solid rgb(0, 0, 0); 
     border-radius: 40px;
     background-color: rgb(156, 64, 156);
 }
@@ -23,8 +23,10 @@ label{
     color: aliceblue;
 }
 
-p{
-    font-family: 'Montserrat', sans-serif;
-    color: aliceblue;
+body{
+    background-color: black;
 }
 
+.botones{
+    color: aliceblue;
+}
