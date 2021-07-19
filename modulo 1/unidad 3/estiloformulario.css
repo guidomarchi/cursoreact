@@ -8,7 +8,7 @@
     padding-top: 80px;
     border: 10px solid rgb(156, 64, 156);  
     border-radius: 30px;
-    box-shadow: 15px 10px 5px rgb(41, 3, 41);
+    box-shadow: 10px 10px 10px rgb(47, 7, 51);
   
 }
 
@@ -16,6 +16,7 @@ input{
     border: 3px solid rgb(0, 0, 0); 
     border-radius: 40px;
     background-color: rgb(156, 64, 156);
+    box-shadow: 3px 2px 1px rgb(26, 1, 26);
 }
 
 label{
@@ -28,5 +29,9 @@ body{
 }
 
 .botones{
-    color: aliceblue;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    width: 80px;
+    height: 30px;
 }
