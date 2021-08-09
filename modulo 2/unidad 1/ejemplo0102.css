@@ -1,0 +1,27 @@
+.rojo{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: red;
+    color: antiquewhite;
+    margin-bottom: 20px;
+    /*margin-left: 20px;*/
+    /*padding: 20px;*/
+    /*padding-top: 20px;*/
+    padding: 5px 10px 15px 20px;
+    /*padding: 5px 10px 20px;/*arriba laterales abajo*/
+    /*padding: 15px 20px;/*altura katerales*/
+    border: 15px solid black;
+    box-sizing: border-box;
+    border-radius: 0 20px 0 0;
+    box-shadow: 15px 10px 5px black;
+    /*box-shadow: inset 15px 10px 5px black;*/
+    /* eje x ejey y sombre y color*/
+}
+
+.azul{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-top: 20px;
+}
