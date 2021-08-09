@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea8</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="container-fluid" style="background-color: blueviolet;">
+                <h1 style="text-align: center;">
+                    Bienvenido a mi primer sitio usando bootstrap
+                </h1>
+                <div class="row">
+                    <div class="col" style="background-color: blue;">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam quod voluptas dolores
+                            fugiat,
+                            nobis voluptatibus minima aperiam voluptatem commodi harum consectetur ratione eum alias
+                            explicabo
+                            debitis. Asperiores quaerat possimus perferendis.
+                        </p>
+                    </div>
+                    <div class="col" style="background-color: brown;">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam quod voluptas dolores
+                            fugiat,
+                            nobis voluptatibus minima aperiam voluptatem commodi harum consectetur ratione eum alias
+                            explicabo
+                            debitis. Asperiores quaerat possimus perferendis.
+                        </p>
+                    </div>
+                    <div class="col" style="background-color: orange;">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam quod voluptas dolores
+                            fugiat,
+                            nobis voluptatibus minima aperiam voluptatem commodi harum consectetur ratione eum alias
+                            explicabo
+                            debitis. Asperiores quaerat possimus perferendis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div class="container" style="background-color: blueviolet; box-sizing: border-box; border: 3px solid rgb(2, 11, 14); ">
+                <h6>
+                    Mi nombre es Guido Marchi, tengo 19 anios. Estoy usando bootstrap por primera vez, ansio aprender a
+                    usarlo correctamente. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat nulla
+                    provident nihil debitis! Dicta nemo amet itaque, sed at, sit eligendi distinctio quo numquam, iure
+                    totam cumque. Est, quam tempore!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                    impedit placeat voluptas libero optio quod excepturi? Quae esse, sunt maiores, a quam aperiam velit
+                    officiis porro laboriosam sed provident. Possimus! Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Neque rem nam optio, facere repellat omnis dolor earum cum! Animi pariatur
+                    laboriosam totam facilis dolore eaque ab magni quibusdam similique et?
+                </h6>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <h3 style="text-align: center;">Si queres contactarte conmigo, porfavor completa este formulario</h3>
+            <form style="padding-left: 20px ;">
+                <div class="mb-3">
+                    <label for="Nombre" class="form-label">Nombre</label>
+                    <input type="nom" class="form-control" id="Nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="Apellido" class="form-label">Apellido</label>
+                    <input type="Apellido" class="form-control" id="Apellido">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">No compartiremos tu email con nadie</div>
+                </div>
+                <button type="enviar" class="btn btn-primary">Enviar</button>
+              </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
