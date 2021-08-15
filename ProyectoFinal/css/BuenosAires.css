@@ -1,0 +1,168 @@
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-color: #2f5839;
+    padding: 1em ;
+    position: relative;
+}
+
+header img{
+    border-radius: 100%;
+    top: 0.75em;
+    border: 2px solid rgb(166, 243, 159);
+    box-sizing: content-box;
+}
+
+header h1{
+    color: rgb(166, 243, 159);
+    font-size: 3em;
+    font-weight: 300;
+    font-style: normal;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+
+    
+}
+
+nav{
+    background-color: #38ac55;
+    margin-bottom: 2em;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 24%;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+nav ul li a.activo{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.homeimg{
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.homeimg img{
+    max-width: 100%;
+    width: 800px;
+    border: 5px solid #2f5839;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+h2{
+    color: #2f5839;
+    font-weight: 400;
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.bienvenidos{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    text-align: center;
+}
+
+
+/*fin del home*/
+
+/*inicio del formulario del contacto*/
+
+.caja{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #38ac55;
+    padding: 35px;
+    box-sizing: border-box;
+    border: 10px solid #2f5839;  
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    overflow-x: hidden;
+    color: white;
+  
+}
+
+input{
+    border: 3px solid rgb(2, 11, 14); 
+    border-radius: 40px;
+    background-color: #60b174;
+    margin: 0;
+    color: black;
+}
+
+div h3, h5, label, input{
+    text-align: center;
+}
+
+.form-text{
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.botones{
+    color: white;
+    background-color: #60b174;
+    width: 6em;
+    height: 2em;
+    margin: 0 auto;
+}
+
+#form-textarea{
+    border: 3px solid rgb(2, 11, 14); 
+    border-radius: 10px;
+    background-color: #60b174;
+    color: white;
+}
+
+form p{
+    text-align: center;
+}
+
+form label{
+    text-align: center;
+}
